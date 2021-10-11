@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Minesweeper</string>
+    <string name="minesweeper">Minesweeper</string>
+    <string name="flag">🚩</string>
+    <string name="bomb">💣</string>
+    <string name="submit">Start</string>
+    <string name="cancel">Cancel</string>
+    <string name="title">INSTRUCTIONS</string>
+    <string name="Rules">Minesweeper is single player game. In this game, There is a board which is divided into cells with mines randomly distributed. To win Player needs to open all cells.The number on a cell shows the number of mines adjacent to it. Using this information, you can determine cells that are safe, and cells that contain mines.\n\nCells suspected of being mines can be marked with a flag⛳ by long pressing that cell. If you wish to unFlag that flagged cell , you can do it by simply clicking on it.\n\n
+        The game and timer starts when you first click on the cell.\n\n
+        HAPPY HUNTING!</string>
+    <string name="ok">OK</string>
+    <string name="seconds">s</string>
+    <string name="BestTime">Best Time : 00:00</string>
+    <string name="LastGameTime">Last Game Time : 00:00</string>
+    <string name="select_difficulty">Select Difficulty</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="or">OR</string>
+    <string name="coustom_board">Make a Custom Board</string>
+    <string name="start">Start</string>
+    <string name="onBackPressed">Confirm Exit</string>
+    <string name="exitMessage">Game is still Ongoing!
+    Do you want to exit?</string>
+    <string name="enter_number_of_rows">Enter Number of Rows</string>
+    <string name="enter_number_of_columns">Enter Number of Columns</string>
+    <string name="enter_number_of_mines">Enter Number of Mines</string>
+    <string name="mines">Mines</string>
+    <string name="exitingwithoutplaying">This is an exciting Level!
+        Are you sure you want to exit?</string>
+</resources>

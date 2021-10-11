@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/RowsCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="@string/enter_number_of_rows"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/ColoumnCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:hint="@string/enter_number_of_columns"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/MinesCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:hint="@string/enter_number_of_mines"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textStyle="bold" />
+
+
+</LinearLayout>
