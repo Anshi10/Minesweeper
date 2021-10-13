@@ -236,10 +236,10 @@ class minesweeperGame : AppCompatActivity() {
             val bestTime : Int =  time
             val prevbestTime = pref.getInt("BestTime", Int.MAX_VALUE)
             Log.d("before if",prevbestTime.toString())
-            Log.d("beforebestime","${bestTime}")
+            Log.d("beforebestime","$bestTime")
             if(prevbestTime>=bestTime || prevbestTime <=0){
                 editor.putInt("BestTime",bestTime)
-                Log.d("bestime","${bestTime}")
+                Log.d("bestime","$bestTime")
             }
             editor.putInt("LastGameTime",time)
             editor.apply()
@@ -265,9 +265,9 @@ class minesweeperGame : AppCompatActivity() {
         for(k in 0..7){
             val r  = i + xDir[k]
             val c = j+ yDir[k]
-            Log.d("before for loop","Rows = ${r} , column = ${c}")
+            Log.d("before for loop","Rows = $r , column = $c")
             if(r in (0 until Rows) && c in (0 until Cols)  ) {
-                Log.d("Handle Zero","Row = ${r} , column = ${c}")
+                Log.d("Handle Zero","Row = $r , column = $c")
                 if(cellBoard[r][c].value>0 && !cellBoard[r][c].isFlagged && !cellBoard[r][c].isRevealed){
                     cellBoard[r][c].isRevealed=true
 
@@ -288,10 +288,10 @@ class minesweeperGame : AppCompatActivity() {
             val r = Random.nextInt(0, Rows)
             val c = Random.nextInt(0, Cols)
             if(cellBoard[r][c].isMined || cellBoard[r][c].value == -1 || cellBoard[r][c]==cellBoard[currRow][currCol]){
-                Log.d("ANSHIKA","THIS ROW AND COLUMN IS ALREADY OCCUPIED")
+               // Log.d("ANSHIKA","THIS ROW AND COLUMN IS ALREADY OCCUPIED")
                 continue
             }
-            Log.d("ANSHIKA","${r} , ${c}  mine HERE")
+          //  Log.d("ANSHIKA","$r , $c  mine HERE")
             cellBoard[r][c].isMined = true
             cellBoard[r][c].value = -1
             Minespos.add(cellBoard[r][c])
