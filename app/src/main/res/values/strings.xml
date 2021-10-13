@@ -6,8 +6,8 @@
     <string name="submit">Start</string>
     <string name="cancel">Cancel</string>
     <string name="title">INSTRUCTIONS</string>
-    <string name="Rules">Minesweeper is single player game. In this game, There is a board which is divided into cells with mines randomly distributed. To win Player needs to open all cells.The number on a cell shows the number of mines adjacent to it. Using this information, you can determine cells that are safe, and cells that contain mines.\n\nCells suspected of being mines can be marked with a flag⛳ by long pressing that cell. If you wish to unFlag that flagged cell , you can do it by simply clicking on it.\n\n
-        The game and timer starts when you first click on the cell.\n\n
+    <string name="Rules">Minesweeper is single player game. In this game, There is a board which is divided into cells with mines randomly distributed.To win Player needs to open all cells.The number on a cell shows the number of mines adjacent to it. Using this information, you can determine cells that are safe, and cells that contain mines.\n\nCells suspected of being mines can be marked with a flag⛳ by long pressing that cell. If you wish to unFlag that flagged cell , you can do it by simply clicking on it.\n\n
+        The game and timer starts when you first click on the cell.\n\n If you wish to exit game , you can do it anytime by clicking back button.\n\n
         HAPPY HUNTING!</string>
     <string name="ok">OK</string>
     <string name="seconds">s</string>
